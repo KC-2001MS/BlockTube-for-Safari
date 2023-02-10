@@ -14,6 +14,18 @@
 		F7063A3529967E7A007B80FD /* BlockTube_for_SafariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A3429967E7A007B80FD /* BlockTube_for_SafariTests.swift */; };
 		F7063A3F29967E7A007B80FD /* BlockTube_for_SafariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A3E29967E7A007B80FD /* BlockTube_for_SafariUITests.swift */; };
 		F7063A4129967E7A007B80FD /* BlockTube_for_SafariUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A4029967E7A007B80FD /* BlockTube_for_SafariUITestsLaunchTests.swift */; };
+		F7063A6929967EE7007B80FD /* BlockTube iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F7063A5129967EE7007B80FD /* BlockTube iOS.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7063A7629967F67007B80FD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A7529967F67007B80FD /* SafariWebExtensionHandler.swift */; };
+		F7063A7929967F67007B80FD /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F7063A7829967F67007B80FD /* _locales */; };
+		F7063A7D29967F67007B80FD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F7063A7C29967F67007B80FD /* manifest.json */; };
+		F7063A8C29967F67007B80FD /* BlockTube macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F7063A7329967F67007B80FD /* BlockTube macOS.appex */; platformFilters = (macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7063A9029967FE7007B80FD /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F7063A7829967F67007B80FD /* _locales */; };
+		F7063A9229967FED007B80FD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F7063A7C29967F67007B80FD /* manifest.json */; };
+		F7063A982996805A007B80FD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A7529967F67007B80FD /* SafariWebExtensionHandler.swift */; };
+		F7063A9A29968175007B80FD /* src in Resources */ = {isa = PBXBuildFile; fileRef = F7063A9929968175007B80FD /* src */; };
+		F7063A9B29968175007B80FD /* src in Resources */ = {isa = PBXBuildFile; fileRef = F7063A9929968175007B80FD /* src */; };
+		F7063A9D2996819F007B80FD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F7063A9C2996819F007B80FD /* assets */; };
+		F7063A9E2996819F007B80FD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F7063A9C2996819F007B80FD /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +43,36 @@
 			remoteGlobalIDString = F7063A1E29967E79007B80FD;
 			remoteInfo = "BlockTube for Safari";
 		};
+		F7063A6729967EE7007B80FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7063A1729967E79007B80FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7063A5029967EE7007B80FD;
+			remoteInfo = "BlockTube iOS";
+		};
+		F7063A8A29967F67007B80FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7063A1729967E79007B80FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7063A7229967F67007B80FD;
+			remoteInfo = "BlockTube macOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7063A6D29967EE7007B80FD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F7063A6929967EE7007B80FD /* BlockTube iOS.appex in Embed Foundation Extensions */,
+				F7063A8C29967F67007B80FD /* BlockTube macOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F7063A1F29967E79007B80FD /* BlockTube for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlockTube for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +86,16 @@
 		F7063A3A29967E7A007B80FD /* BlockTube for SafariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlockTube for SafariUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7063A3E29967E7A007B80FD /* BlockTube_for_SafariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTube_for_SafariUITests.swift; sourceTree = "<group>"; };
 		F7063A4029967E7A007B80FD /* BlockTube_for_SafariUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTube_for_SafariUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7063A5129967EE7007B80FD /* BlockTube iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BlockTube iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7063A6629967EE7007B80FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7063A7329967F67007B80FD /* BlockTube macOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BlockTube macOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7063A7529967F67007B80FD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F7063A7829967F67007B80FD /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		F7063A7C29967F67007B80FD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		F7063A8829967F67007B80FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7063A8929967F67007B80FD /* BlockTube_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockTube_macOS.entitlements; sourceTree = "<group>"; };
+		F7063A9929968175007B80FD /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		F7063A9C2996819F007B80FD /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +120,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7063A4E29967EE7007B80FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7063A7029967F67007B80FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +143,9 @@
 				F7063A2129967E79007B80FD /* BlockTube for Safari */,
 				F7063A3329967E7A007B80FD /* BlockTube for SafariTests */,
 				F7063A3D29967E7A007B80FD /* BlockTube for SafariUITests */,
+				F7063A6E29967F50007B80FD /* BlockTube */,
+				F7063A5229967EE7007B80FD /* BlockTube iOS */,
+				F7063A7429967F67007B80FD /* BlockTube macOS */,
 				F7063A2029967E79007B80FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +156,8 @@
 				F7063A1F29967E79007B80FD /* BlockTube for Safari.app */,
 				F7063A3029967E7A007B80FD /* BlockTube for SafariTests.xctest */,
 				F7063A3A29967E7A007B80FD /* BlockTube for SafariUITests.xctest */,
+				F7063A5129967EE7007B80FD /* BlockTube iOS.appex */,
+				F7063A7329967F67007B80FD /* BlockTube macOS.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +199,43 @@
 			path = "BlockTube for SafariUITests";
 			sourceTree = "<group>";
 		};
+		F7063A5229967EE7007B80FD /* BlockTube iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7063A6629967EE7007B80FD /* Info.plist */,
+			);
+			path = "BlockTube iOS";
+			sourceTree = "<group>";
+		};
+		F7063A6E29967F50007B80FD /* BlockTube */ = {
+			isa = PBXGroup;
+			children = (
+				F7063A7529967F67007B80FD /* SafariWebExtensionHandler.swift */,
+				F7063A7729967F67007B80FD /* Resources */,
+			);
+			path = BlockTube;
+			sourceTree = "<group>";
+		};
+		F7063A7429967F67007B80FD /* BlockTube macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7063A8829967F67007B80FD /* Info.plist */,
+				F7063A8929967F67007B80FD /* BlockTube_macOS.entitlements */,
+			);
+			path = "BlockTube macOS";
+			sourceTree = "<group>";
+		};
+		F7063A7729967F67007B80FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7063A7829967F67007B80FD /* _locales */,
+				F7063A9C2996819F007B80FD /* assets */,
+				F7063A7C29967F67007B80FD /* manifest.json */,
+				F7063A9929968175007B80FD /* src */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,10 +246,13 @@
 				F7063A1B29967E79007B80FD /* Sources */,
 				F7063A1C29967E79007B80FD /* Frameworks */,
 				F7063A1D29967E79007B80FD /* Resources */,
+				F7063A6D29967EE7007B80FD /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F7063A6829967EE7007B80FD /* PBXTargetDependency */,
+				F7063A8B29967F67007B80FD /* PBXTargetDependency */,
 			);
 			name = "BlockTube for Safari";
 			productName = "BlockTube for Safari";
@@ -185,6 +295,40 @@
 			productReference = F7063A3A29967E7A007B80FD /* BlockTube for SafariUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F7063A5029967EE7007B80FD /* BlockTube iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7063A6A29967EE7007B80FD /* Build configuration list for PBXNativeTarget "BlockTube iOS" */;
+			buildPhases = (
+				F7063A4D29967EE7007B80FD /* Sources */,
+				F7063A4E29967EE7007B80FD /* Frameworks */,
+				F7063A4F29967EE7007B80FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlockTube iOS";
+			productName = "BlockTube iOS";
+			productReference = F7063A5129967EE7007B80FD /* BlockTube iOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F7063A7229967F67007B80FD /* BlockTube macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7063A8D29967F67007B80FD /* Build configuration list for PBXNativeTarget "BlockTube macOS" */;
+			buildPhases = (
+				F7063A6F29967F67007B80FD /* Sources */,
+				F7063A7029967F67007B80FD /* Frameworks */,
+				F7063A7129967F67007B80FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlockTube macOS";
+			productName = "BlockTube macOS";
+			productReference = F7063A7329967F67007B80FD /* BlockTube macOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +350,12 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = F7063A1E29967E79007B80FD;
 					};
+					F7063A5029967EE7007B80FD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F7063A7229967F67007B80FD = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = F7063A1A29967E79007B80FD /* Build configuration list for PBXProject "BlockTube for Safari" */;
@@ -224,6 +374,8 @@
 				F7063A1E29967E79007B80FD /* BlockTube for Safari */,
 				F7063A2F29967E7A007B80FD /* BlockTube for SafariTests */,
 				F7063A3929967E7A007B80FD /* BlockTube for SafariUITests */,
+				F7063A5029967EE7007B80FD /* BlockTube iOS */,
+				F7063A7229967F67007B80FD /* BlockTube macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +401,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7063A4F29967EE7007B80FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7063A9229967FED007B80FD /* manifest.json in Resources */,
+				F7063A9D2996819F007B80FD /* assets in Resources */,
+				F7063A9029967FE7007B80FD /* _locales in Resources */,
+				F7063A9A29968175007B80FD /* src in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7063A7129967F67007B80FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7063A7D29967F67007B80FD /* manifest.json in Resources */,
+				F7063A9E2996819F007B80FD /* assets in Resources */,
+				F7063A7929967F67007B80FD /* _locales in Resources */,
+				F7063A9B29968175007B80FD /* src in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +455,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7063A4D29967EE7007B80FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7063A982996805A007B80FD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7063A6F29967F67007B80FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7063A7629967F67007B80FD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +483,20 @@
 			isa = PBXTargetDependency;
 			target = F7063A1E29967E79007B80FD /* BlockTube for Safari */;
 			targetProxy = F7063A3B29967E7A007B80FD /* PBXContainerItemProxy */;
+		};
+		F7063A6829967EE7007B80FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = F7063A5029967EE7007B80FD /* BlockTube iOS */;
+			targetProxy = F7063A6729967EE7007B80FD /* PBXContainerItemProxy */;
+		};
+		F7063A8B29967F67007B80FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
+			target = F7063A7229967F67007B80FD /* BlockTube macOS */;
+			targetProxy = F7063A8A29967F67007B80FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,6 +613,7 @@
 		F7063A4529967E7A007B80FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "BlockTube for Safari/BlockTube_for_Safari.entitlements";
@@ -447,6 +652,7 @@
 		F7063A4629967E7A007B80FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "BlockTube for Safari/BlockTube_for_Safari.entitlements";
@@ -572,6 +778,133 @@
 			};
 			name = Release;
 		};
+		F7063A6B29967EE7007B80FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockTube iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-Safari.BlockTube-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7063A6C29967EE7007B80FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockTube iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-Safari.BlockTube-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7063A8E29967F67007B80FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BlockTube macOS/BlockTube_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockTube macOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-Safari.BlockTube-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F7063A8F29967F67007B80FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BlockTube macOS/BlockTube_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockTube macOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-Safari.BlockTube-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -607,6 +940,24 @@
 			buildConfigurations = (
 				F7063A4B29967E7A007B80FD /* Debug */,
 				F7063A4C29967E7A007B80FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7063A6A29967EE7007B80FD /* Build configuration list for PBXNativeTarget "BlockTube iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7063A6B29967EE7007B80FD /* Debug */,
+				F7063A6C29967EE7007B80FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7063A8D29967F67007B80FD /* Build configuration list for PBXNativeTarget "BlockTube macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7063A8E29967F67007B80FD /* Debug */,
+				F7063A8F29967F67007B80FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
