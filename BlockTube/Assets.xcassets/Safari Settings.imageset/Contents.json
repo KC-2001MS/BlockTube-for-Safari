@@ -1,0 +1,67 @@
+{
+  "images" : [
+    {
+      "filename" : "iOS_Safari_Settings_EN.png",
+      "idiom" : "iphone"
+    },
+    {
+      "filename" : "visionOS_Safari_Settings_EN 1.png",
+      "idiom" : "reality"
+    },
+    {
+      "filename" : "iOS_Safari_Settings_EN 1.png",
+      "idiom" : "ipad"
+    },
+    {
+      "filename" : "macOS_Safari_Settings_EN.png",
+      "idiom" : "mac"
+    },
+    {
+      "filename" : "iOS_Safari_Settings_EN 2.png",
+      "idiom" : "iphone",
+      "locale" : "en"
+    },
+    {
+      "filename" : "visionOS_Safari_Settings_EN.png",
+      "idiom" : "reality",
+      "locale" : "en"
+    },
+    {
+      "filename" : "iOS_Safari_Settings_EN 3.png",
+      "idiom" : "ipad",
+      "locale" : "en"
+    },
+    {
+      "filename" : "macOS_Safari_Settings_EN 1.png",
+      "idiom" : "mac",
+      "locale" : "en"
+    },
+    {
+      "filename" : "iOS_Safari_Settings_JP.png",
+      "idiom" : "iphone",
+      "locale" : "ja"
+    },
+    {
+      "filename" : "visionOS_Safari_Settings_JP.png",
+      "idiom" : "reality",
+      "locale" : "ja"
+    },
+    {
+      "filename" : "iOS_Safari_Settings_JP 1.png",
+      "idiom" : "ipad",
+      "locale" : "ja"
+    },
+    {
+      "filename" : "macOS_Safari_Settings_JP.png",
+      "idiom" : "mac",
+      "locale" : "ja"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}

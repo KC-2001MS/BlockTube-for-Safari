@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: README
+    url: https://github.com/KC-2001MS/BlockTube-for-Safari/blob/main/README.md
+    about: More information on using BlockTube for Safari can be found here.

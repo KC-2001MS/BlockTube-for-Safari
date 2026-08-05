@@ -3,46 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 100;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7063A2329967E79007B80FD /* BlockTube_for_SafariApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A2229967E79007B80FD /* BlockTube_for_SafariApp.swift */; };
+		F7063A2329967E79007B80FD /* BlockTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A2229967E79007B80FD /* BlockTubeApp.swift */; };
 		F7063A2529967E79007B80FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A2429967E79007B80FD /* ContentView.swift */; };
 		F7063A2729967E7A007B80FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7063A2629967E7A007B80FD /* Assets.xcassets */; };
 		F7063A2B29967E7A007B80FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7063A2A29967E7A007B80FD /* Preview Assets.xcassets */; };
-		F7063A3529967E7A007B80FD /* BlockTube_for_SafariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A3429967E7A007B80FD /* BlockTube_for_SafariTests.swift */; };
-		F7063A3F29967E7A007B80FD /* BlockTube_for_SafariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A3E29967E7A007B80FD /* BlockTube_for_SafariUITests.swift */; };
-		F7063A4129967E7A007B80FD /* BlockTube_for_SafariUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A4029967E7A007B80FD /* BlockTube_for_SafariUITestsLaunchTests.swift */; };
-		F7063A6929967EE7007B80FD /* BlockTube iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F7063A5129967EE7007B80FD /* BlockTube iOS.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F7063A7629967F67007B80FD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A7529967F67007B80FD /* SafariWebExtensionHandler.swift */; };
-		F7063A7929967F67007B80FD /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F7063A7829967F67007B80FD /* _locales */; };
-		F7063A7D29967F67007B80FD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F7063A7C29967F67007B80FD /* manifest.json */; };
-		F7063A8C29967F67007B80FD /* BlockTube macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F7063A7329967F67007B80FD /* BlockTube macOS.appex */; platformFilters = (macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F7063A9029967FE7007B80FD /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F7063A7829967F67007B80FD /* _locales */; };
+		F7063A6929967EE7007B80FD /* BlockTube Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F7063A5129967EE7007B80FD /* BlockTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F7063A9229967FED007B80FD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F7063A7C29967F67007B80FD /* manifest.json */; };
 		F7063A982996805A007B80FD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063A7529967F67007B80FD /* SafariWebExtensionHandler.swift */; };
 		F7063A9A29968175007B80FD /* src in Resources */ = {isa = PBXBuildFile; fileRef = F7063A9929968175007B80FD /* src */; };
-		F7063A9B29968175007B80FD /* src in Resources */ = {isa = PBXBuildFile; fileRef = F7063A9929968175007B80FD /* src */; };
 		F7063A9D2996819F007B80FD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F7063A9C2996819F007B80FD /* assets */; };
-		F7063A9E2996819F007B80FD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F7063A9C2996819F007B80FD /* assets */; };
+		F725ACCE30222DD400ACBE63 /* FocusedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725ACCD30222DD400ACBE63 /* FocusedValues.swift */; };
+		F725ACD030222DDA00ACBE63 /* HelpCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725ACCF30222DDA00ACBE63 /* HelpCommands.swift */; };
+		F725ACD230222DEB00ACBE63 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725ACD130222DEB00ACBE63 /* HelpView.swift */; };
+		F725ACD430222E0000ACBE63 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725ACD330222E0000ACBE63 /* InfoView.swift */; };
+		F725ACD830222FF700ACBE63 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F725ACD630222FF700ACBE63 /* InfoPlist.xcstrings */; };
+		F725ACD930222FF700ACBE63 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F725ACD730222FF700ACBE63 /* Localizable.xcstrings */; };
+		F725ACDB30222FF700ACBE63 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F725ACDA30222FF700ACBE63 /* InfoPlist.xcstrings */; };
+		F725ACDD3023A57900ACBE63 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = F725ACDC3023A57900ACBE63 /* AppIcon.icon */; };
+		F7896D812FFF95CB0026498E /* AboutUI in Frameworks */ = {isa = PBXBuildFile; platformFilters = (macos, ); productRef = F7896D802FFF95CB0026498E /* AboutUI */; };
+		F7896D832FFF95CB0026498E /* ArticleUI in Frameworks */ = {isa = PBXBuildFile; productRef = F7896D822FFF95CB0026498E /* ArticleUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F7063A3129967E7A007B80FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7063A1729967E79007B80FD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7063A1E29967E79007B80FD;
-			remoteInfo = "BlockTube for Safari";
-		};
-		F7063A3B29967E7A007B80FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7063A1729967E79007B80FD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7063A1E29967E79007B80FD;
-			remoteInfo = "BlockTube for Safari";
-		};
 		F7063A6729967EE7007B80FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F7063A1729967E79007B80FD /* Project object */;
@@ -50,89 +36,57 @@
 			remoteGlobalIDString = F7063A5029967EE7007B80FD;
 			remoteInfo = "BlockTube iOS";
 		};
-		F7063A8A29967F67007B80FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7063A1729967E79007B80FD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7063A7229967F67007B80FD;
-			remoteInfo = "BlockTube macOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F7063A6D29967EE7007B80FD /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 13;
+			dstSubfolder = PlugIns;
 			files = (
-				F7063A6929967EE7007B80FD /* BlockTube iOS.appex in Embed Foundation Extensions */,
-				F7063A8C29967F67007B80FD /* BlockTube macOS.appex in Embed Foundation Extensions */,
+				F7063A6929967EE7007B80FD /* BlockTube Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F7063A1F29967E79007B80FD /* BlockTube for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlockTube for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7063A2229967E79007B80FD /* BlockTube_for_SafariApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTube_for_SafariApp.swift; sourceTree = "<group>"; };
+		F7063A2229967E79007B80FD /* BlockTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTubeApp.swift; sourceTree = "<group>"; };
 		F7063A2429967E79007B80FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7063A2629967E7A007B80FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7063A2829967E7A007B80FD /* BlockTube_for_Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockTube_for_Safari.entitlements; sourceTree = "<group>"; };
+		F7063A2829967E7A007B80FD /* BlockTube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockTube.entitlements; sourceTree = "<group>"; };
 		F7063A2A29967E7A007B80FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F7063A3029967E7A007B80FD /* BlockTube for SafariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlockTube for SafariTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7063A3429967E7A007B80FD /* BlockTube_for_SafariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTube_for_SafariTests.swift; sourceTree = "<group>"; };
-		F7063A3A29967E7A007B80FD /* BlockTube for SafariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlockTube for SafariUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7063A3E29967E7A007B80FD /* BlockTube_for_SafariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTube_for_SafariUITests.swift; sourceTree = "<group>"; };
-		F7063A4029967E7A007B80FD /* BlockTube_for_SafariUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTube_for_SafariUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F7063A5129967EE7007B80FD /* BlockTube iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BlockTube iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7063A5129967EE7007B80FD /* BlockTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BlockTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7063A6629967EE7007B80FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7063A7329967F67007B80FD /* BlockTube macOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BlockTube macOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7063A7529967F67007B80FD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		F7063A7829967F67007B80FD /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		F7063A7C29967F67007B80FD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		F7063A8829967F67007B80FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7063A8929967F67007B80FD /* BlockTube_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockTube_macOS.entitlements; sourceTree = "<group>"; };
 		F7063A9929968175007B80FD /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 		F7063A9C2996819F007B80FD /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		F725ACCD30222DD400ACBE63 /* FocusedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedValues.swift; sourceTree = "<group>"; };
+		F725ACCF30222DDA00ACBE63 /* HelpCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCommands.swift; sourceTree = "<group>"; };
+		F725ACD130222DEB00ACBE63 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		F725ACD330222E0000ACBE63 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F725ACD630222FF700ACBE63 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		F725ACD730222FF700ACBE63 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F725ACDA30222FF700ACBE63 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		F725ACDC3023A57900ACBE63 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		F7896D7B2FFF908D0026498E /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		F7896D7C2FFF908D0026498E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F7063A1C29967E79007B80FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				F7896D812FFF95CB0026498E /* AboutUI in Frameworks */,
+				F7896D832FFF95CB0026498E /* ArticleUI in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7063A2D29967E7A007B80FD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7063A3729967E7A007B80FD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F7063A4E29967EE7007B80FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7063A7029967F67007B80FD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -140,12 +94,11 @@
 		F7063A1629967E79007B80FD = {
 			isa = PBXGroup;
 			children = (
-				F7063A2129967E79007B80FD /* BlockTube for Safari */,
-				F7063A3329967E7A007B80FD /* BlockTube for SafariTests */,
-				F7063A3D29967E7A007B80FD /* BlockTube for SafariUITests */,
-				F7063A6E29967F50007B80FD /* BlockTube */,
-				F7063A5229967EE7007B80FD /* BlockTube iOS */,
-				F7063A7429967F67007B80FD /* BlockTube macOS */,
+				F7063A2129967E79007B80FD /* BlockTube */,
+				F7063A6E29967F50007B80FD /* BlockTube Extension */,
+				F7896D7B2FFF908D0026498E /* LICENSE.md */,
+				F7896D7C2FFF908D0026498E /* README.md */,
+				F7896D7F2FFF95CB0026498E /* Frameworks */,
 				F7063A2029967E79007B80FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,24 +107,26 @@
 			isa = PBXGroup;
 			children = (
 				F7063A1F29967E79007B80FD /* BlockTube for Safari.app */,
-				F7063A3029967E7A007B80FD /* BlockTube for SafariTests.xctest */,
-				F7063A3A29967E7A007B80FD /* BlockTube for SafariUITests.xctest */,
-				F7063A5129967EE7007B80FD /* BlockTube iOS.appex */,
-				F7063A7329967F67007B80FD /* BlockTube macOS.appex */,
+				F7063A5129967EE7007B80FD /* BlockTube Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7063A2129967E79007B80FD /* BlockTube for Safari */ = {
+		F7063A2129967E79007B80FD /* BlockTube */ = {
 			isa = PBXGroup;
 			children = (
-				F7063A2229967E79007B80FD /* BlockTube_for_SafariApp.swift */,
-				F7063A2429967E79007B80FD /* ContentView.swift */,
+				F7063A2829967E7A007B80FD /* BlockTube.entitlements */,
+				F725ACD630222FF700ACBE63 /* InfoPlist.xcstrings */,
+				F725ACD730222FF700ACBE63 /* Localizable.xcstrings */,
+				F725ACDC3023A57900ACBE63 /* AppIcon.icon */,
 				F7063A2629967E7A007B80FD /* Assets.xcassets */,
-				F7063A2829967E7A007B80FD /* BlockTube_for_Safari.entitlements */,
 				F7063A2929967E7A007B80FD /* Preview Content */,
+				F7063A2229967E79007B80FD /* BlockTubeApp.swift */,
+				F725ACCF30222DDA00ACBE63 /* HelpCommands.swift */,
+				F725ACD530222EA600ACBE63 /* UI */,
+				F725ACCD30222DD400ACBE63 /* FocusedValues.swift */,
 			);
-			path = "BlockTube for Safari";
+			path = BlockTube;
 			sourceTree = "<group>";
 		};
 		F7063A2929967E7A007B80FD /* Preview Content */ = {
@@ -182,58 +137,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F7063A3329967E7A007B80FD /* BlockTube for SafariTests */ = {
-			isa = PBXGroup;
-			children = (
-				F7063A3429967E7A007B80FD /* BlockTube_for_SafariTests.swift */,
-			);
-			path = "BlockTube for SafariTests";
-			sourceTree = "<group>";
-		};
-		F7063A3D29967E7A007B80FD /* BlockTube for SafariUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F7063A3E29967E7A007B80FD /* BlockTube_for_SafariUITests.swift */,
-				F7063A4029967E7A007B80FD /* BlockTube_for_SafariUITestsLaunchTests.swift */,
-			);
-			path = "BlockTube for SafariUITests";
-			sourceTree = "<group>";
-		};
-		F7063A5229967EE7007B80FD /* BlockTube iOS */ = {
+		F7063A6E29967F50007B80FD /* BlockTube Extension */ = {
 			isa = PBXGroup;
 			children = (
 				F7063A6629967EE7007B80FD /* Info.plist */,
-			);
-			path = "BlockTube iOS";
-			sourceTree = "<group>";
-		};
-		F7063A6E29967F50007B80FD /* BlockTube */ = {
-			isa = PBXGroup;
-			children = (
+				F725ACDA30222FF700ACBE63 /* InfoPlist.xcstrings */,
 				F7063A7529967F67007B80FD /* SafariWebExtensionHandler.swift */,
 				F7063A7729967F67007B80FD /* Resources */,
 			);
-			path = BlockTube;
-			sourceTree = "<group>";
-		};
-		F7063A7429967F67007B80FD /* BlockTube macOS */ = {
-			isa = PBXGroup;
-			children = (
-				F7063A8829967F67007B80FD /* Info.plist */,
-				F7063A8929967F67007B80FD /* BlockTube_macOS.entitlements */,
-			);
-			path = "BlockTube macOS";
+			path = "BlockTube Extension";
 			sourceTree = "<group>";
 		};
 		F7063A7729967F67007B80FD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F7063A7829967F67007B80FD /* _locales */,
 				F7063A9C2996819F007B80FD /* assets */,
 				F7063A7C29967F67007B80FD /* manifest.json */,
 				F7063A9929968175007B80FD /* src */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F725ACD530222EA600ACBE63 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F7063A2429967E79007B80FD /* ContentView.swift */,
+				F725ACD330222E0000ACBE63 /* InfoView.swift */,
+				F725ACD130222DEB00ACBE63 /* HelpView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F7896D7F2FFF95CB0026498E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,81 +191,26 @@
 			);
 			dependencies = (
 				F7063A6829967EE7007B80FD /* PBXTargetDependency */,
-				F7063A8B29967F67007B80FD /* PBXTargetDependency */,
 			);
 			name = "BlockTube for Safari";
 			productName = "BlockTube for Safari";
 			productReference = F7063A1F29967E79007B80FD /* BlockTube for Safari.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F7063A2F29967E7A007B80FD /* BlockTube for SafariTests */ = {
+		F7063A5029967EE7007B80FD /* BlockTube Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7063A4729967E7A007B80FD /* Build configuration list for PBXNativeTarget "BlockTube for SafariTests" */;
+			buildConfigurationList = F7063A6A29967EE7007B80FD /* Build configuration list for PBXNativeTarget "BlockTube Extension" */;
 			buildPhases = (
-				F7063A2C29967E7A007B80FD /* Sources */,
-				F7063A2D29967E7A007B80FD /* Frameworks */,
-				F7063A2E29967E7A007B80FD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7063A3229967E7A007B80FD /* PBXTargetDependency */,
-			);
-			name = "BlockTube for SafariTests";
-			productName = "BlockTube for SafariTests";
-			productReference = F7063A3029967E7A007B80FD /* BlockTube for SafariTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F7063A3929967E7A007B80FD /* BlockTube for SafariUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7063A4A29967E7A007B80FD /* Build configuration list for PBXNativeTarget "BlockTube for SafariUITests" */;
-			buildPhases = (
-				F7063A3629967E7A007B80FD /* Sources */,
-				F7063A3729967E7A007B80FD /* Frameworks */,
-				F7063A3829967E7A007B80FD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7063A3C29967E7A007B80FD /* PBXTargetDependency */,
-			);
-			name = "BlockTube for SafariUITests";
-			productName = "BlockTube for SafariUITests";
-			productReference = F7063A3A29967E7A007B80FD /* BlockTube for SafariUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		F7063A5029967EE7007B80FD /* BlockTube iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7063A6A29967EE7007B80FD /* Build configuration list for PBXNativeTarget "BlockTube iOS" */;
-			buildPhases = (
+				F725ACAE3021189D00ACBE63 /* ShellScript */,
 				F7063A4D29967EE7007B80FD /* Sources */,
 				F7063A4E29967EE7007B80FD /* Frameworks */,
 				F7063A4F29967EE7007B80FD /* Resources */,
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
-			name = "BlockTube iOS";
+			name = "BlockTube Extension";
 			productName = "BlockTube iOS";
-			productReference = F7063A5129967EE7007B80FD /* BlockTube iOS.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		F7063A7229967F67007B80FD /* BlockTube macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7063A8D29967F67007B80FD /* Build configuration list for PBXNativeTarget "BlockTube macOS" */;
-			buildPhases = (
-				F7063A6F29967F67007B80FD /* Sources */,
-				F7063A7029967F67007B80FD /* Frameworks */,
-				F7063A7129967F67007B80FD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BlockTube macOS";
-			productName = "BlockTube macOS";
-			productReference = F7063A7329967F67007B80FD /* BlockTube macOS.appex */;
+			productReference = F7063A5129967EE7007B80FD /* BlockTube Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -337,45 +221,36 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 2700;
 				TargetAttributes = {
 					F7063A1E29967E79007B80FD = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					F7063A2F29967E7A007B80FD = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = F7063A1E29967E79007B80FD;
-					};
-					F7063A3929967E7A007B80FD = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = F7063A1E29967E79007B80FD;
-					};
 					F7063A5029967EE7007B80FD = {
-						CreatedOnToolsVersion = 14.2;
-					};
-					F7063A7229967F67007B80FD = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
 			buildConfigurationList = F7063A1A29967E79007B80FD /* Build configuration list for PBXProject "BlockTube for Safari" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = F7063A1629967E79007B80FD;
+			packageReferences = (
+				F7896D7D2FFF95490026498E /* XCRemoteSwiftPackageReference "AboutUI" */,
+				F7896D7E2FFF955A0026498E /* XCRemoteSwiftPackageReference "ArticleUI" */,
+			);
+			preferredProjectObjectVersion = 100;
 			productRefGroup = F7063A2029967E79007B80FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F7063A1E29967E79007B80FD /* BlockTube for Safari */,
-				F7063A2F29967E7A007B80FD /* BlockTube for SafariTests */,
-				F7063A3929967E7A007B80FD /* BlockTube for SafariUITests */,
-				F7063A5029967EE7007B80FD /* BlockTube iOS */,
-				F7063A7229967F67007B80FD /* BlockTube macOS */,
+				F7063A5029967EE7007B80FD /* BlockTube Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -383,125 +258,67 @@
 /* Begin PBXResourcesBuildPhase section */
 		F7063A1D29967E79007B80FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F7063A2B29967E7A007B80FD /* Preview Assets.xcassets in Resources */,
 				F7063A2729967E7A007B80FD /* Assets.xcassets in Resources */,
+				F725ACD830222FF700ACBE63 /* InfoPlist.xcstrings in Resources */,
+				F725ACD930222FF700ACBE63 /* Localizable.xcstrings in Resources */,
+				F725ACDD3023A57900ACBE63 /* AppIcon.icon in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7063A2E29967E7A007B80FD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7063A3829967E7A007B80FD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F7063A4F29967EE7007B80FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F7063A9229967FED007B80FD /* manifest.json in Resources */,
 				F7063A9D2996819F007B80FD /* assets in Resources */,
-				F7063A9029967FE7007B80FD /* _locales in Resources */,
+				F725ACDB30222FF700ACBE63 /* InfoPlist.xcstrings in Resources */,
 				F7063A9A29968175007B80FD /* src in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7063A7129967F67007B80FD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7063A7D29967F67007B80FD /* manifest.json in Resources */,
-				F7063A9E2996819F007B80FD /* assets in Resources */,
-				F7063A7929967F67007B80FD /* _locales in Resources */,
-				F7063A9B29968175007B80FD /* src in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F725ACAE3021189D00ACBE63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			shellPath = /bin/sh;
+			shellScript = (
+				"# Type a script or drag a script file from your workspace to insert its path.",
+				"\"$SRCROOT/scripts/update-upstream.sh\" --build",
+				"",
+			);
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F7063A1B29967E79007B80FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				F725ACD030222DDA00ACBE63 /* HelpCommands.swift in Sources */,
+				F725ACCE30222DD400ACBE63 /* FocusedValues.swift in Sources */,
 				F7063A2529967E79007B80FD /* ContentView.swift in Sources */,
-				F7063A2329967E79007B80FD /* BlockTube_for_SafariApp.swift in Sources */,
+				F725ACD230222DEB00ACBE63 /* HelpView.swift in Sources */,
+				F725ACD430222E0000ACBE63 /* InfoView.swift in Sources */,
+				F7063A2329967E79007B80FD /* BlockTubeApp.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7063A2C29967E7A007B80FD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7063A3529967E7A007B80FD /* BlockTube_for_SafariTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7063A3629967E7A007B80FD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7063A4129967E7A007B80FD /* BlockTube_for_SafariUITestsLaunchTests.swift in Sources */,
-				F7063A3F29967E7A007B80FD /* BlockTube_for_SafariUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F7063A4D29967EE7007B80FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F7063A982996805A007B80FD /* SafariWebExtensionHandler.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7063A6F29967F67007B80FD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7063A7629967F67007B80FD /* SafariWebExtensionHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F7063A3229967E7A007B80FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F7063A1E29967E79007B80FD /* BlockTube for Safari */;
-			targetProxy = F7063A3129967E7A007B80FD /* PBXContainerItemProxy */;
-		};
-		F7063A3C29967E7A007B80FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F7063A1E29967E79007B80FD /* BlockTube for Safari */;
-			targetProxy = F7063A3B29967E7A007B80FD /* PBXContainerItemProxy */;
-		};
 		F7063A6829967EE7007B80FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			platformFilter = ios;
-			target = F7063A5029967EE7007B80FD /* BlockTube iOS */;
+			target = F7063A5029967EE7007B80FD /* BlockTube Extension */;
 			targetProxy = F7063A6729967EE7007B80FD /* PBXContainerItemProxy */;
-		};
-		F7063A8B29967F67007B80FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			platformFilters = (
-				macos,
-			);
-			target = F7063A7229967F67007B80FD /* BlockTube macOS */;
-			targetProxy = F7063A8A29967F67007B80FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F7063A4229967E7A007B80FD /* Debug */ = {
+		F7063A4229967E7A007B80FD /* Debug configuration for PBXProject "BlockTube for Safari" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -534,9 +351,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -554,12 +374,13 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		F7063A4329967E7A007B80FD /* Release */ = {
+		F7063A4329967E7A007B80FD /* Release configuration for PBXProject "BlockTube for Safari" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -592,9 +413,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7AA87AZ875;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -605,26 +429,27 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		F7063A4529967E7A007B80FD /* Debug */ = {
+		F7063A4529967E7A007B80FD /* Debug configuration for PBXNativeTarget "BlockTube for Safari" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "BlockTube for Safari/BlockTube_for_Safari.entitlements";
+				CODE_SIGN_ENTITLEMENTS = BlockTube/BlockTube.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BlockTube for Safari/Preview Content\"";
-				DEVELOPMENT_TEAM = 7AA87AZ875;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BlockTube/Preview Content\"";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Free Software Foundation, Inc.";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Keisuke Chinone. Licensed under the GNU General Public License v3.0.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -634,36 +459,38 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-Safari";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinone.BlockTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = "$(RECOMMENDED_XROS_DEPLOYMENT_TARGET)";
 			};
 			name = Debug;
 		};
-		F7063A4629967E7A007B80FD /* Release */ = {
+		F7063A4629967E7A007B80FD /* Release configuration for PBXNativeTarget "BlockTube for Safari" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "BlockTube for Safari/BlockTube_for_Safari.entitlements";
+				CODE_SIGN_ENTITLEMENTS = BlockTube/BlockTube.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BlockTube for Safari/Preview Content\"";
-				DEVELOPMENT_TEAM = 7AA87AZ875;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BlockTube/Preview Content\"";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Free Software Foundation, Inc.";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Keisuke Chinone. Licensed under the GNU General Public License v3.0.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -673,241 +500,121 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-Safari";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinone.BlockTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = "$(RECOMMENDED_XROS_DEPLOYMENT_TARGET)";
 			};
 			name = Release;
 		};
-		F7063A4829967E7A007B80FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7AA87AZ875;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Free Software Foundation, Inc.";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-SafariTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockTube for Safari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlockTube for Safari";
-			};
-			name = Debug;
-		};
-		F7063A4929967E7A007B80FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7AA87AZ875;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Free Software Foundation, Inc.";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-SafariTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockTube for Safari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlockTube for Safari";
-			};
-			name = Release;
-		};
-		F7063A4B29967E7A007B80FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7AA87AZ875;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Free Software Foundation, Inc.";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-SafariUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "BlockTube for Safari";
-			};
-			name = Debug;
-		};
-		F7063A4C29967E7A007B80FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7AA87AZ875;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Free Software Foundation, Inc.";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-SafariUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "BlockTube for Safari";
-			};
-			name = Release;
-		};
-		F7063A6B29967EE7007B80FD /* Debug */ = {
+		F7063A6B29967EE7007B80FD /* Debug configuration for PBXNativeTarget "BlockTube Extension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "BlockTube iOS/Info.plist";
+				INFOPLIST_FILE = "BlockTube Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Free Software Foundation, Inc.";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Licensed under the GNU General Public License v3.0.";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-Safari.BlockTube-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinone.BlockTube.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = "$(RECOMMENDED_XROS_DEPLOYMENT_TARGET)";
 			};
 			name = Debug;
 		};
-		F7063A6C29967EE7007B80FD /* Release */ = {
+		F7063A6C29967EE7007B80FD /* Release configuration for PBXNativeTarget "BlockTube Extension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "BlockTube iOS/Info.plist";
+				INFOPLIST_FILE = "BlockTube Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Free Software Foundation, Inc.";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Licensed under the GNU General Public License v3.0.";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-Safari.BlockTube-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinone.BlockTube.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F7063A8E29967F67007B80FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "BlockTube macOS/BlockTube_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7AA87AZ875;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "BlockTube macOS/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Free Software Foundation, Inc.";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-Safari.BlockTube-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		F7063A8F29967F67007B80FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "BlockTube macOS/BlockTube_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7AA87AZ875;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "BlockTube macOS/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Free Software Foundation, Inc.";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-webExtention2.BlockTube-for-Safari.BlockTube-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = "$(RECOMMENDED_XROS_DEPLOYMENT_TARGET)";
 			};
 			name = Release;
 		};
@@ -917,58 +624,60 @@
 		F7063A1A29967E79007B80FD /* Build configuration list for PBXProject "BlockTube for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7063A4229967E7A007B80FD /* Debug */,
-				F7063A4329967E7A007B80FD /* Release */,
+				F7063A4229967E7A007B80FD /* Debug configuration for PBXProject "BlockTube for Safari" */,
+				F7063A4329967E7A007B80FD /* Release configuration for PBXProject "BlockTube for Safari" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F7063A4429967E7A007B80FD /* Build configuration list for PBXNativeTarget "BlockTube for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7063A4529967E7A007B80FD /* Debug */,
-				F7063A4629967E7A007B80FD /* Release */,
+				F7063A4529967E7A007B80FD /* Debug configuration for PBXNativeTarget "BlockTube for Safari" */,
+				F7063A4629967E7A007B80FD /* Release configuration for PBXNativeTarget "BlockTube for Safari" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7063A4729967E7A007B80FD /* Build configuration list for PBXNativeTarget "BlockTube for SafariTests" */ = {
+		F7063A6A29967EE7007B80FD /* Build configuration list for PBXNativeTarget "BlockTube Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7063A4829967E7A007B80FD /* Debug */,
-				F7063A4929967E7A007B80FD /* Release */,
+				F7063A6B29967EE7007B80FD /* Debug configuration for PBXNativeTarget "BlockTube Extension" */,
+				F7063A6C29967EE7007B80FD /* Release configuration for PBXNativeTarget "BlockTube Extension" */,
 			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F7063A4A29967E7A007B80FD /* Build configuration list for PBXNativeTarget "BlockTube for SafariUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7063A4B29967E7A007B80FD /* Debug */,
-				F7063A4C29967E7A007B80FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F7063A6A29967EE7007B80FD /* Build configuration list for PBXNativeTarget "BlockTube iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7063A6B29967EE7007B80FD /* Debug */,
-				F7063A6C29967EE7007B80FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F7063A8D29967F67007B80FD /* Build configuration list for PBXNativeTarget "BlockTube macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7063A8E29967F67007B80FD /* Debug */,
-				F7063A8F29967F67007B80FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7896D7D2FFF95490026498E /* XCRemoteSwiftPackageReference "AboutUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KC-2001MS/AboutUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		F7896D7E2FFF955A0026498E /* XCRemoteSwiftPackageReference "ArticleUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KC-2001MS/ArticleUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7896D802FFF95CB0026498E /* AboutUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7896D7D2FFF95490026498E /* XCRemoteSwiftPackageReference "AboutUI" */;
+			productName = AboutUI;
+		};
+		F7896D822FFF95CB0026498E /* ArticleUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7896D7E2FFF955A0026498E /* XCRemoteSwiftPackageReference "ArticleUI" */;
+			productName = ArticleUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7063A1729967E79007B80FD /* Project object */;
 }

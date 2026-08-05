@@ -1,11 +1,20 @@
-# BlockTube-for-Safari
-Prototype version of BlockTube ported as a Safari extension
+# BlockTube for Safari
+A Safari port of the original BlockTube browser extension.
 
-## Reason for creation
-Created to check issues when ported as a Safari extension. Depending on the compatibility with the original repository, our future policy will be determined.
-Please refer to the following URL for details.
+## About
+BlockTube for Safari is an unofficial port of the original BlockTube project, designed to bring its functionality to Safari through a Safari Web Extension.
+
+The project was created to evaluate the feasibility of supporting Safari while maintaining compatibility with the original implementation. The current implementation has been successfully tested, and the repository is planned to be released after obtaining permission from the original project.
+
+## Original Project
+This project is based on the original BlockTube project. The goal is to preserve its behavior as much as possible while adapting it to Safari.
+
+### Original repository:
+- *[https://github.com/amitbl/blocktube](https://github.com/amitbl/blocktube)*
+
+All credit for the original implementation belongs to its respective authors.
 
 ## License
-This code is under the "GNU General Public License v3.0" as stipulated by the license of the original repository.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0), following the license of the original BlockTube project.
 
-However, some of the files in the original repository do not have a copyright notice or have the MIT license listed, so we have left those files as they are. If there are any problems, we will correct them.
+Some files from the original repository either do not include a copyright notice or are explicitly licensed under the MIT License. Those files have been preserved under their original licensing terms. If this handling is found to be incorrect or causes any licensing issues, the repository will be updated accordingly.

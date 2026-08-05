@@ -1,0 +1,24 @@
+{
+  "originHash" : "508e6dd718933d6d84a92cb367acbcf54d116b554b6c7364cd6c72947322a181",
+  "pins" : [
+    {
+      "identity" : "aboutui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KC-2001MS/AboutUI",
+      "state" : {
+        "revision" : "bff0ff9b5c2430419991185c32198166e8cc3d4c",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "articleui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KC-2001MS/ArticleUI",
+      "state" : {
+        "revision" : "5ca46d961d03aed19ee591ad16045e8c3973cfee",
+        "version" : "1.1.2"
+      }
+    }
+  ],
+  "version" : 3
+}

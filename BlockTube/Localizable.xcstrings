@@ -1,0 +1,558 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "© 2026 Keisuke Chinone" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "© 2026 Keisuke Chinone"
+          }
+        }
+      }
+    },
+    "© amitbl" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "© amitbl"
+          }
+        }
+      }
+    },
+    "+α The Toolbar Button" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "+α ツールバーボタン"
+          }
+        }
+      }
+    },
+    "1. YouTube is a trademark of Google LLC. This app is an unofficial port and is not affiliated with Google LLC." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "1. YouTubeはGoogle LLCの商標です。このアプリは非公式の移植版であり、Google LLCとは一切関係ありません。"
+          }
+        }
+      }
+    },
+    "amitbl and contributors" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "amitblとコントリビューター"
+          }
+        }
+      }
+    },
+    "App" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "アプリ"
+          }
+        }
+      }
+    },
+    "Block channels" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "チャンネルをブロック"
+          }
+        }
+      }
+    },
+    "Block videos by keywords" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "キーワードで動画をブロック"
+          }
+        }
+      }
+    },
+    "BlockTube" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "BlockTube"
+          }
+        }
+      }
+    },
+    "BlockTube for Safari" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "BlockTube for Safari"
+          }
+        }
+      }
+    },
+    "BlockTube for Safari Help" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "BlockTube for Safariヘルプ"
+          }
+        }
+      }
+    },
+    "BlockTube for Safari hides unwanted videos, channels, and comments on YouTube based on the filters you set." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "BlockTube for Safariは、設定したフィルターに基づいて、YouTube上の不要な動画、チャンネル、およびコメントを非表示にします。"
+          }
+        }
+      }
+    },
+    "BlockTube for Safari Info" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "BlockTube for Safariの情報"
+          }
+        }
+      }
+    },
+    "Bug Report Page" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "バグ報告ページ"
+          }
+        }
+      }
+    },
+    "By adding keywords to the filter, videos whose titles contain those keywords are hidden from search results, recommendations, and other YouTube pages." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "フィルターにキーワードを追加すると、タイトルにそのキーワードを含む動画が、検索結果やおすすめなどYouTubeの各ページで非表示になります。"
+          }
+        }
+      }
+    },
+    "By specifying a channel name or channel ID, all videos from that channel are hidden." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "チャンネル名またはチャンネルIDを指定すると、そのチャンネルのすべての動画が非表示になります。"
+          }
+        }
+      }
+    },
+    "Cooperation and Contribution" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "協力と貢献"
+          }
+        }
+      }
+    },
+    "Copyrights" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "著作権"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "完了"
+          }
+        }
+      }
+    },
+    "Edit filters from the toolbar" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "ツールバーからフィルターを編集"
+          }
+        }
+      }
+    },
+    "Extension Source" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "拡張機能のソースコード"
+          }
+        }
+      }
+    },
+    "Feedback" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "フィードバック"
+          }
+        }
+      }
+    },
+    "Feedback and requests for BlockTube for Safari" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "BlockTube for Safariへのご意見・ご要望"
+          }
+        }
+      }
+    },
+    "From the Access Rights section, allow access to \"youtube.com\"." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "アクセス権の項目から、「youtube.com」のアクセスを許可します。"
+          }
+        }
+      }
+    },
+    "Help" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "ヘルプ"
+          }
+        }
+      }
+    },
+    "Hide comments" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "コメントを非表示に"
+          }
+        }
+      }
+    },
+    "Hide unwanted videos from YouTube" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "YouTubeの不要な動画を非表示にする"
+          }
+        }
+      }
+    },
+    "How to Activate" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "有効化方法"
+          }
+        }
+      }
+    },
+    "https://kc-2001ms.github.io/en/" : {
+      "comment" : "Iroiro's Top Page",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "https://kc-2001ms.github.io/"
+          }
+        }
+      }
+    },
+    "https://kc-2001ms.github.io/en/privacy.html" : {
+      "comment" : "Iroiro's Privacy Policy Page",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "https://kc-2001ms.github.io/privacy.html"
+          }
+        }
+      }
+    },
+    "If you find any problems with this application, please report them via this URL or email." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "このアプリケーションの不具合を発見されましたら、こちらのURLもしくはメールからご報告ください。"
+          }
+        }
+      }
+    },
+    "If you have any questions or feedback, please contact us at the email address below." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "質問やフィードバックがありましたら、下記のメールアドレスにて連絡をお願いいたします。"
+          }
+        }
+      }
+    },
+    "If you like this application, please submit a review." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "このアプリを気に入られましたら、是非ともレビューの投稿をお願いいたします。"
+          }
+        }
+      }
+    },
+    "iroiro.work1234@gmail.com" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "iroiro.work1234@gmail.com"
+          }
+        }
+      }
+    },
+    "Keisuke Chinone" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "茅根 啓介"
+          }
+        }
+      }
+    },
+    "Open Safari Settings and go to the Extensions screen or Extensions tab." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Safariの設定を開き、拡張機能画面もしくは機能拡張タブに遷移します。"
+          }
+        }
+      }
+    },
+    "Privacy Policy" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "プライバシーポリシー"
+          }
+        }
+      }
+    },
+    "Privacy Policy Page" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "プライバシーポリシーページ"
+          }
+        }
+      }
+    },
+    "Report bugs" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "バグ報告"
+          }
+        }
+      }
+    },
+    "Review" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "レビュー"
+          }
+        }
+      }
+    },
+    "Review BlockTube for Safari in the App Store" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "App StoreでBlockTube for Safariを評価する"
+          }
+        }
+      }
+    },
+    "Send feedback to developer via email" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "メールで開発者にフィードバックを送る"
+          }
+        }
+      }
+    },
+    "Step 1: Open Safari Settings" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Step 1: Safariの設定を起動"
+          }
+        }
+      }
+    },
+    "Step 2: Enable Extensions" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Step 2: 拡張機能をオン"
+          }
+        }
+      }
+    },
+    "Step 3: Permit Access" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Step 3: アクセスを許可"
+          }
+        }
+      }
+    },
+    "Submit" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "提出"
+          }
+        }
+      }
+    },
+    "SwiftUI" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "SwiftUI"
+          }
+        }
+      }
+    },
+    "The source code for the extension is based on the open source project \"BlockTube\" and is used under the GNU General Public License v3.0." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "拡張機能のソースコードは、オープンソースプロジェクト「BlockTube」をベースにしており、GNU General Public License v3.0に基づいて使用されています。"
+          }
+        }
+      }
+    },
+    "To find out what this application can do for you, please see Help." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "このアプリで何ができるのかを知るには、ヘルプをご覧ください。"
+          }
+        }
+      }
+    },
+    "Turn on \"BlockTube\" from the Extensions screen or Extensions tab." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "拡張機能画面もしくは機能拡張タブ上にある「BlockTube」という項目をオンにします。"
+          }
+        }
+      }
+    },
+    "What is BlockTube for Safari" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "BlockTube for Safariとは"
+          }
+        }
+      }
+    },
+    "You can edit your filters at any time from the extension's settings screen, which opens from the BlockTube button on the Safari toolbar." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "SafariのツールバーにあるBlockTubeボタンから開く拡張機能の設定画面で、いつでもフィルターを編集することができます。"
+          }
+        }
+      }
+    },
+    "You can hide comments that contain specific keywords, or hide the entire comment section." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "特定のキーワードを含むコメントを非表示にしたり、コメント欄全体を非表示にしたりすることができます。"
+          }
+        }
+      }
+    },
+    "You can open the extension's settings screen from the BlockTube button on the Safari toolbar to edit your filters." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "SafariのツールバーにあるBlockTubeボタンから拡張機能の設定画面を開き、フィルターを編集することができます。"
+          }
+        }
+      }
+    },
+    "You can review the privacy policy for this application at the following site" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "このアプリケーションのプライバシーポリシーは、以下のサイトで確認できます。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.3"
+}

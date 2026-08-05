@@ -1,0 +1,38 @@
+name: Sync upstream BlockTube release
+
+on:
+  schedule:
+    # 毎日 06:00 JST (21:00 UTC)
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync with the latest upstream release
+        id: sync
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: ./scripts/update-upstream.sh
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: upstream-sync
+          delete-branch: true
+          commit-message: 'Sync extension resources with upstream BlockTube ${{ steps.sync.outputs.tag }}'
+          title: 'Sync upstream BlockTube ${{ steps.sync.outputs.tag }}'
+          body: |
+            上流 [amitbl/blocktube](https://github.com/amitbl/blocktube) の最新リリース **${{ steps.sync.outputs.tag }}** との自動同期です。
+
+            判定はリリース成果物とリポジトリのファイル内容の比較で行っています(タグ名やバージョン表記は判定に使用していません)。
+
+            ${{ steps.sync.outputs.manifest_changed == 'true' && '> [!WARNING]
+            > 上流の `manifest.json` に変更があります。`upstream/manifest.json` の diff を確認し、必要な変更を `BlockTube Extension/Resources/manifest.json` に手動で反映してからマージしてください。' || 'マージ前にSafariでの動作確認を推奨します。' }}
