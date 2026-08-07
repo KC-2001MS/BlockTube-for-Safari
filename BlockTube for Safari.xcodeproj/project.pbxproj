@@ -71,6 +71,7 @@
 		F725ACD730222FF700ACBE63 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		F725ACDA30222FF700ACBE63 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		F725ACDC3023A57900ACBE63 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		F77972F43023C02100016A96 /* upstream-bug-report-block-channel-touch.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "upstream-bug-report-block-channel-touch.md"; sourceTree = "<group>"; };
 		F7896D7B2FFF908D0026498E /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		F7896D7C2FFF908D0026498E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +101,7 @@
 				F7896D7C2FFF908D0026498E /* README.md */,
 				F7896D7F2FFF95CB0026498E /* Frameworks */,
 				F7063A2029967E79007B80FD /* Products */,
+				F77972F33023C00800016A96 /* docs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +168,14 @@
 				F725ACD130222DEB00ACBE63 /* HelpView.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		F77972F33023C00800016A96 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				F77972F43023C02100016A96 /* upstream-bug-report-block-channel-touch.md */,
+			);
+			path = docs;
 			sourceTree = "<group>";
 		};
 		F7896D7F2FFF95CB0026498E /* Frameworks */ = {
